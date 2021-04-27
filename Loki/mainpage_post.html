@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOKi MainPage</title>
+    <link rel="stylesheet" href="mainpage_post.css" />
+    <script defer type="text/javascript" src="mainpage_post.js"></script>
+</head>
+<body>
+    <img class='logo' src="LOKi.png">
+    <button class="btn" type="button" onclick="edit_profile()">Edit Profile</button>
+    <div id="comment_section">
+        <output id="storage_output"></output>
+        <img id="icon" src="icon.png">
+        <label id="read">Make a Post here:</label>
+        <input id="comment" name="user_comment" type="text"></input>
+        <button id="submit" type="button">Submit</button>
+    </div>
+    <div id="sent_area">
+
+    </div>
+    <template id="first_template">
+        <div class="display">
+            <output class="sto_output">Profile</output>
+            <img class="dif_icon" src="icon.png">
+            <p class="a_comment"></p>
+            <input class="user_input" name="posted_comment"></input>
+            <button class="reply_button" type="button">Reply</button>
+        </div>
+        <div class="the_reply">
+
+        </div>
+    </template>
+    <template id="second_template">
+        <div class="another">
+            <output class="storage_output_comment">Profile</output>
+            <img class="dif_icon" src="icon.png">
+            <p class="a_reply"></p>
+        </div>
+    </template>
+</body>
+</html>

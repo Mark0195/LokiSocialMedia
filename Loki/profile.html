@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOKi Profile</title>
+    <link rel="stylesheet" href="profile.css" />
+    <script defer type="text/javascript" src="profile.js"></script>
+</head>
+<body>
+    <a href="mainpage_post.html "><img class='logo' src="LOKi.png"></a>
+    <label class="return">Click logo to return to Main</label>
+    <form id="profile_info">
+        <img id="profile" src="profile.jpg">
+                <output id="storage_firstname">name</output>
+                <output id="storage_lastname">last</output>
+                <output id="storage_user">user</output>
+                <output id="storage_email">email</output>
+            <div>
+                <select type="text" id="gender" name="gender">
+                    <option value="">Gender</option>
+                    <option value="">----</option>
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="other life form">Other Life Form</option>
+                </select>
+                <output id="storage_gender">Your Saved Gender</output>
+            </div>
+            <div>
+                <input type="text" id="location" name="location" placeholder="Location">
+                <output id="storage_location">Your Saved Location</output>
+            <div>
+                <textarea id="bio" row="200" cols="40">Bio</textarea>
+                <output id="bio_output">Your Saved Bio</output>
+            </div>
+            <div>
+                <button type="button" id="btn" onclick="savedata()">Save Changes</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

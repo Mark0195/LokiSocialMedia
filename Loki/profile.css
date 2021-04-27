@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(galaxy.jpg) no-repeat;
+    background-size: cover;
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.return{
+    color: deepskyblue;
+}
+
+#profile{
+    display: grid;
+    border-radius: 50%;
+    margin: auto;
+    width: 35%;
+}
+
+#bio{
+    height: 95px;
+    font-style: italic;
+    font-size: 20px;
+    background-color: #c6ad57;
+    color:  #0f7b47;
+}
+
+#storage_user{
+    color: slateblue;
+}
+
+#storage_firstname{
+    color: deeppink;
+}
+
+#storage_lastname{
+    color: darkorange;
+}
+
+#storage_email{
+    color:crimson
+}
+
+#bio_output{
+    color:cyan;
+}
+
+#storage_gender{
+    color:cyan;
+}
+
+#storage_location{
+    color:cyan;
+}
