@@ -1,2 +1,2 @@
 # LokiSocialMedia
-Social Media website created during a sprint
+Social Media website created during a sprint week challenge
